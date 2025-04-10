@@ -3,19 +3,14 @@ import java.util.*;
 public class Problem2309 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        // 리스트 구성
+        // 리스트 구성 및 리스트 합 추출
+        int sum_arr = 0;
         int[] arr = new int[9];
         for(int i=0;i<9;i++){
             arr[i] = sc.nextInt();
-        }
-        sc.close();
-        
-        // 리스트 합도출
-        int sum_arr = 0;
-
-        for(int i=0;i<arr.length; i++){
             sum_arr += arr[i];
         }
+        sc.close();
         
         // 버블정렬 + 범인색출
         boolean find = false;
