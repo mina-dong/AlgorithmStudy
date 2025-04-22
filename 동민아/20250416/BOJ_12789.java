@@ -39,7 +39,7 @@ public class BOJ_12789 {
             }
         }
 
-        //방해받지 않고 끊났다면
+        //방해받지 않고 끝났다면
         System.out.println("Nice");
 
 
@@ -47,5 +47,5 @@ public class BOJ_12789 {
 }
 
 // 큐인가? 선입선출
-5
-5 4 1 3 2
+//5
+//5 4 1 3 2
